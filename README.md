@@ -18,3 +18,14 @@ To run the tests, simply run the following command:
 ```bash
 pytest test_api.py
 ```
+
+## Installation with docker
+```bash
+docker build -t test-backend .
+```
+
+## Running the project with docker
+To run the tests with docker, simply run the following command:
+```bash
+docker run test-backend
+```
